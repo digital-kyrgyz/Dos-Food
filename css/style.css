@@ -26,7 +26,7 @@ body {
     background-color: transparent;
     border: none;
     width: 100%;
-    padding: 13px 0 13px 20px;
+    padding: 13px 60px 13px 20px;
 }
 .search-button {
     background-color: transparent;
@@ -275,7 +275,7 @@ body {
 .section-gray {
     background: #F6F6F6;
 }
-.category {
+.category-title {
     padding-top: 40px;
     padding-bottom: 60px;
 }
@@ -315,6 +315,7 @@ body {
 }
 .tabs-card-content {
     padding: 23px;
+
 }
 .tabs-title {
     margin-top: 0;
@@ -393,5 +394,41 @@ body {
 }
 .social-icon {
     width: 35px;
-    margin:10px;
+    margin: 10px;
+}
+.section-white {
+    background: #FFFFFF;;
+}
+.tabs-footer-card {
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    max-width: 270px;
+    margin:18px;
+}
+.tabs-footer-content {
+    margin-bottom: 150px;
+    display: flex;
+    margin: -18px;
+}
+.tabs-footer-image {
+    width: 60px;
+    margin: 32px 105px;
+}
+.tabs-card-content-footer {
+    padding:24px;
+}
+.tabs-card-footer-title {
+    margin-bottom: 13px;
+    max-width: 215px;
+    text-align: center;
+}
+.tabs-footer-description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #49494F;
 }
